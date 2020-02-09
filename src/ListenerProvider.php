@@ -37,7 +37,7 @@ class ListenerProvider implements ListenerProviderInterface
             throw new InvalidArgumentException('Listeners must have only one parameter.');
         }
 
-        $type = $parameters[0]->hasType() ? (string)$parameters[0]->getType() : null;
+        $type = $parameters[0]->hasType() ? $parameters[0]->getType()->getName() : null;
         if ($type === 'object') {
             $type = null;
         }
