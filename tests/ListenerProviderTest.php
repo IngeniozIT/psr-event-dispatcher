@@ -128,6 +128,6 @@ class ListenerProviderTest extends TestCase
     }
 }
 
-function listener(object $event)
+function listener(object $event): void
 {
 }

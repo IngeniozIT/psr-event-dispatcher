@@ -12,7 +12,7 @@ use IngeniozIT\EventDispatcher\InvalidArgumentException;
  */
 class ListenerProvider implements ListenerProviderInterface
 {
-    protected $listeners = [];
+    protected array $listeners = [];
 
     /**
      * Constructor.
@@ -47,7 +47,7 @@ class ListenerProvider implements ListenerProviderInterface
 
     /**
      * Get the parameters of a listener.
-     * @param  callable $listener
+     * @param  mixed $listener
      * @return array
      */
     protected function getListenerParameters($listener): array
@@ -65,7 +65,7 @@ class ListenerProvider implements ListenerProviderInterface
     /**
      * @param object $event
      *   An event for which to return the relevant listeners.
-     * @return callable[]
+     * @return mixed[]
      *   An iterable (array, iterator, or generator) of callables.  Each
      *   callable MUST be type-compatible with $event.
      */
