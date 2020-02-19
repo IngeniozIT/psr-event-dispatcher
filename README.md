@@ -6,7 +6,7 @@ By using this library, you will get all the PSR-14 functionalities ; nothing mor
 It mainly focuses on **performance** and **code quality** (PSR 12, extensive unit testing, good practices).
 
 
-[![Packagist Version](https://img.shields.io/packagist/v/ingenioz-it/psr-event-dispatcher.svg)](https://packagist.org/packages/ingenioz-it/event-dispatcher)
+[![Packagist Version](https://img.shields.io/packagist/v/ingenioz-it/event-dispatcher)](https://packagist.org/packages/ingenioz-it/event-dispatcher)
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/ingenioz-it/event-dispatcher.svg)
 ![Packagist](https://img.shields.io/packagist/l/ingenioz-it/event-dispatcher.svg)
 
